@@ -3,7 +3,7 @@ What if you want to list metadata from your Kafka cluster, topics, partitions, r
 You can run a command with the `-L` and `-J` flags:
 
 ```
-kcat -b mybrokeraddress -L -J
+kcat -b mybroker -L -J
 ```
 
 `-L` is for list mode, and `-J` ensures JSON output. 
