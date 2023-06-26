@@ -25,3 +25,9 @@ Or, adding another `v`, I could see debug logs:
 2023-06-07T13:50:51.293-0700 [DEBUG] Searching for netrc machine with filter: {IgnoreCert:false IsCloud:true Name:login-username@email.com-https://confluent.cloud URL:https://confluent.cloud}
 ...etc
 ```
+
+With four `v`s, I get the trace stack, which has the same output as the above for many lines but is finer-grained:
+
+```
+❯ confluent login -vvvv
+```
