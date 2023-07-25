@@ -1,3 +1,5 @@
+USED AUG 23
+
 Let's talk about the `-Z` flag in kcat for a moment.
 
 This is a very special flag. As you can see from its [definition](https://github.com/edenhill/kcat/blob/ab6ce814fa2e435359e77a1d3813853248679206/kcat.h#L100) in the code, it will interpret empty message values as `null`. What's important about that? Well, it enables us to set up [tombstones](https://medium.com/@damienthomlutz/deleting-records-in-kafka-aka-tombstones-651114655a16) via kcat:
