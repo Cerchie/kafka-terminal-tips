@@ -1,3 +1,5 @@
+USED 08-02-23
+
 You can add info from the `confluent` cli to your terminal prompt. First, set up your `~/bashrc`
 
 ```
