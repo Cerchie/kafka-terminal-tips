@@ -1,3 +1,5 @@
+USED AUG 23
+
 Today's tip example comes from the [Confluent Docs](https://docs.confluent.io/platform/current/clients/kafkacat-usage.html). 
 
 If you'd like to view your message keys outputted in kcat, add a `-K` flag with a delimiter:
