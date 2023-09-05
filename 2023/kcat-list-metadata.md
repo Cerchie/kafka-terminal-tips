@@ -1,3 +1,5 @@
+USED SEP 23
+
 What if you want to list metadata from your Kafka cluster, topics, partitions, replicas and in-sync replicas? 
 
 You can run a command with the `-L` and `-J` flags:
