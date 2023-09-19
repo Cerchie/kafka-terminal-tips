@@ -1,3 +1,5 @@
+USED SEP 19 23
+
 Today we're going to talk about the different ways to configure [kcat](https://github.com/edenhill/kcat).
 
 First of all, one of the reasons that kcat is so useful is that any piece of [librdkafka configuration](https://github.com/confluentinc/librdkafka/blob/master/CONFIGURATION.md) is available to it via the -X flag:
